@@ -8,6 +8,33 @@ a {
 }
 
 .dogAttr {
-  background-color: aquamarine;
+  background-color: rgb(246, 255, 127);
   width: 120px;
+}
+
+#myTitle{
+  color: #cf8e58;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: double;
+}
+
+.dogbr{
+  margin-right: 2px;
+  margin-bottom: 0;
+  padding: 15px;
+  justify-content:center;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(0, 255, 128);
+  border-left: 2px solid rgb(0, 255, 34);
+  border-right: 2px solid rgb(0, 255, 34);
+  border-top: 2px solid rgb(0, 255, 34);
+  background-color: rgb(255, 240, 254);
+  border-radius: 1px;
+}
+.jathi{
+    width: 55%;
+}
+.dogbr:hover{
+  color: black;
 }

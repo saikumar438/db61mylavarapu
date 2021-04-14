@@ -17,4 +17,8 @@ router.put('/resource/dogs/:id', dog_controller.dog_update_put);
 router.get('/resource/dogs/:id', dog_controller.dog_detail);
 // GET request for list of all dog items.
 router.get('/resource/dogs', dog_controller.dog_list);
+
+/* GET create update page */
+router.get('/update, costume_controlers.costume_update_Page');
+
 module.exports = router;
