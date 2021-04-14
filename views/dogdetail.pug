@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+
+  - let dogid = toShow._id
+  - let dogname  = toShow.dogname
+  - let breed = toShow.breed
+  - let price  = toShow.price
+  div
+    div.row
+      div(class='dogAttr') Dog ID is:
+      div #{dogid}
+    div.row
+      div(class='dogAttr') Dog Name  is:
+      div #{dogname}
+    div.row
+      div(class='dogAttr') Dod Breed is:
+      div #{breed}
+    div.row
+      div(class='dogAttr') Dog Price  is:
+      div #{price}

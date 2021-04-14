@@ -13,4 +13,7 @@ const dog_controlers= require('../controllers/dog');
 var router = express.Router();
 /* GET Dogs */
 router.get('/', dog_controlers.dog_view_all_Page );
+/* GET detail costume page */
+router.get('/detail', dog_controlers.dog_view_one_Page);
+
 module.exports = router;
