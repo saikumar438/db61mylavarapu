@@ -6,7 +6,7 @@ block content
   div(class="container-fluid mt-3")
   div(class="row")
     each dog,index in dogs 
-        - let destination = `dispatch(\"/dogs/update?id=${dog._id}\")`
+        - let destination = `dispatch(\"/dog/update?id=${dog._id}\")`
         div(class="col-sm-4 m-1 p-3" style=("font-weight:bolder")) #{dog.dogname} - #{dog.breed} - #{dog.price} 
           button.btn( class="btn-primary ml-1", onclick= destination) Update
   script.

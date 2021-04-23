@@ -28,7 +28,7 @@ a {
   border-bottom: 2px solid rgb(0, 255, 128);
   border-left: 2px solid rgb(0, 255, 34);
   border-right: 2px solid rgb(0, 255, 34);
-  border-top: 2px solid rgb(0, 255, 34);
+  border-top : 2px solid rgb(0, 255, 34);
   background-color: rgb(255, 240, 254);
   border-radius: 1px;
 }
